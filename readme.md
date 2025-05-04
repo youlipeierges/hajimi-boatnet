@@ -1,5 +1,5 @@
 # 非常哈基米的僵尸网络(QBOT)  
-`**首先你得有一个centos 7系统**`  
+`首先你得有一个centos 7系统`  
 然后安装依赖  
 ```bash
 curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
@@ -30,5 +30,6 @@ screen -r 会话名
 ```python
 python bot_install.py
 ```
-`**完事就是这么简单**`
-`**后面僵尸自己弄**`
+`完事就是这么简单`  
+`传马命令他会给出的`  
+`后面僵尸自己弄`  
