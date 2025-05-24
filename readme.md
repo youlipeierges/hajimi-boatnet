@@ -2,7 +2,7 @@
 `首先你得有一个centos 7系统`  
 然后安装依赖  
 ```bash
-centos的源一般都已经失效了，除非你真的不怕死，你可以用阿里云或者腾讯云，来运行次僵尸网络
+centos的源一般都已经失效了，除非你真的不怕死，你可以用阿里云或者腾讯云，来运行此船上网络
 备用centos7源安装方式:
 curl -o /etc/yum.repos.d/CentOS-Base.repo
 
